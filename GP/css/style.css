@@ -87,8 +87,17 @@ body {
       width: fit-content;
       height: fit-content; } }
 
+.DropdownBox {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
+  width: 61.9rem; }
+  .DropdownBox--infoCol__details {
+    list-style: none;
+    font-size: 2rem; }
+
 body {
-  background-image: url(../images/testImg.jpg);
   display: flex;
   justify-content: center;
   justify-items: center; }

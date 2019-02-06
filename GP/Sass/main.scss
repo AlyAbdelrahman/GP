@@ -10,10 +10,11 @@
 @import'components/SearchEngineBtn';
 @import'components/SearchEngineContainer';
 @import'components/SearchEngineCard';
+@import'components/dropDown';
 
 body{
     //this just for testing
-    background-image: url(../images/testImg.jpg);
+    // background-image: url(../images/testImg.jpg);
     display:flex;
     justify-content: center;
     justify-items: center;

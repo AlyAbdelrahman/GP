@@ -1,0 +1,104 @@
+
+$green : #94C13D ;
+$light :#F7F9F3;
+$dark:#262626;
+@import "./node_modules/bootstrap/scss/bootstrap.scss" ;
+
+
+//colors-----------------------
+.add-Green{
+    color: $green;
+}
+
+.add-white{
+    color: $white !important;
+}
+
+.bg-light-color{
+    background-color:$light; 
+}
+
+.add-black{
+    
+        color: !important $dark;
+        :hover{
+            color:$green;
+        }
+}
+a{
+    color:$dark;
+    
+    text-decoration: none;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: $dark !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: $green !important;
+}
+
+ul.nav li.active a {
+    color: $dark !important;
+}
+
+//fonts-------------------------
+.add-Bold{
+    font-weight: bold;
+}
+
+.add-font-small{
+    font-size: 14px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: $dark;
+    line-height: 30px;
+}
+//padding-------------------------
+.padding-small{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.padding-y-small{
+    padding-top:1.3rem;
+padding-bottom: 1.3rem;
+}
+.padding-x-big{
+    padding-right:4rem;
+padding-left: 4rem;
+}
+
+.no-gutters{
+    padding: 0px;
+}
+
+//editing exist classes-----------------
+// .navbar-light{
+//     color:$dark;
+//     :hover{
+//         color:$green;
+//     }
+// }
+
+.navbar-light {
+    color: !important $dark;
+    :hover{
+        color:$green;
+    }
+}
+
+.btn-primary{
+    background-color: $green;
+    border-color: $green;
+    &:hover{
+        background-color: $dark;
+        color:white;
+    
+    }
+}
